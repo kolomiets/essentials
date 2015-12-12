@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moloki.Diagnostics.CorrelationLogger", "Moloki.Diagnostics.CorrelationLogger\Moloki.Diagnostics.CorrelationLogger.csproj", "{44DA1F89-DB7B-4187-B49A-AEFDFEC41E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moloki.Diagnostics.CorrelationLogger.Tests", "Moloki.Diagnostics.CorrelationLogger.Tests\Moloki.Diagnostics.CorrelationLogger.Tests.csproj", "{3DE5C2FA-8925-4917-BC2F-E0E8A5EE30BC}"
+EndProject
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Moloki.Diagnostics.CorrelationLogger.Package", "Moloki.Diagnostics.CorrelationLogger.Package\Moloki.Diagnostics.CorrelationLogger.Package.nuproj", "{0CA9C0A6-7EB4-4B2E-BAA1-20BAAF1F1EDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DA1F89-DB7B-4187-B49A-AEFDFEC41E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DA1F89-DB7B-4187-B49A-AEFDFEC41E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DA1F89-DB7B-4187-B49A-AEFDFEC41E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DA1F89-DB7B-4187-B49A-AEFDFEC41E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE5C2FA-8925-4917-BC2F-E0E8A5EE30BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE5C2FA-8925-4917-BC2F-E0E8A5EE30BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE5C2FA-8925-4917-BC2F-E0E8A5EE30BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE5C2FA-8925-4917-BC2F-E0E8A5EE30BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA9C0A6-7EB4-4B2E-BAA1-20BAAF1F1EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA9C0A6-7EB4-4B2E-BAA1-20BAAF1F1EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA9C0A6-7EB4-4B2E-BAA1-20BAAF1F1EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA9C0A6-7EB4-4B2E-BAA1-20BAAF1F1EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
