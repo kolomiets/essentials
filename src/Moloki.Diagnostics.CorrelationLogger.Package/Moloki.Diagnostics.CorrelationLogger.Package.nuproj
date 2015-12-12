@@ -18,25 +18,23 @@
   </PropertyGroup>
   <PropertyGroup>
     <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
-    <OutDir>$(SolutionDir)bin\$(Configuration)</OutDir>
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
     <Id>Moloki.Diagnostics.CorrelationLogger</Id>
     <Version>1.0.0</Version>
-    <Title>Simple Correlation Logger </Title>
+    <Title>Simple Correlation Logger</Title>
     <Authors>dmitry.kolomiets</Authors>
     <Owners>dmitry.kolomiets</Owners>
-    <Summary>CorrelationLogger.Package</Summary>
-    <Description>CorrelationLogger.Package</Description>
+    <Summary>Correlation Logger based on TraceSource capabilities.</Summary>
+    <Description>Simple but useful logger with correlation capabilities based on standard System.Diagnostics namespace capabilities.</Description>
     <ReleaseNotes>
     </ReleaseNotes>
-    <ProjectUrl>
-    </ProjectUrl>
+    <ProjectUrl>https://github.com/kolomiets/essentials</ProjectUrl>
     <LicenseUrl>
     </LicenseUrl>
     <Copyright>Copyright © dmitry.kolomiets</Copyright>
-    <Tags>CorrelationLogger.Package</Tags>
+    <Tags>log logger trace diagnostics</Tags>
     <EmbedSourceFiles>true</EmbedSourceFiles>
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.targets" />
